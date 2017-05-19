@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多维数组创建</title>
+	<script>
+		window.onload=function()
+		{
+           //如何创建个多维数组
+           var wins=[];
+
+           for(var i=0;i<15;i++)
+           {
+           	wins[i]=[];//所有的15个wins[i]又都是一个数组;
+           	for(var j=0;j<15;j++)
+           	{
+           		wins[i][j]=[];
+           	}
+           }
+           wins[1][2]='a';
+
+           alert(wins[1][2]);
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
